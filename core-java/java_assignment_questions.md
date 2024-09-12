@@ -1,47 +1,145 @@
 
-# Java Assignment Questions - Basic Operators
+# Interview Preparation - Java Programs for Beginners
 
-### 1. **GPA Calculator**
-   - **Task:** Write a program to calculate the GPA of a student based on scores in 5 subjects. Calculate the average using arithmetic operators.
-   - **Explanation:** You will input five grades, sum them, and divide by 5 to get the average GPA.
+### 1. Write a program to accept two numbers from the user, calculate the sum and display the result.
+#### Expected output:
+```
+Enter the num1 value:  
+10  
+Enter the num2 value:  
+20  
+Sum of 10 and 20 is 30
+```
 
-### 2. **Currency Converter**
-   - **Task:** Convert amounts between USD, EUR, and INR using pre-defined conversion rates.
-   - **Explanation:** Perform arithmetic operations to multiply the input currency by the conversion factor to get the equivalent value in another currency.
+---
 
-### 3. **Compound Interest Calculator**
-   - **Task:** Calculate compound interest using the formula:
-     \[
-     CI = P 	imes \left(1 + rac{R}{100}ight)^T - P
-     \]
-   - **Explanation:** Input `P` (principal), `R` (rate of interest), and `T` (time) to calculate the compound interest using the formula.
+### 2. Write a program to accept the weight of 3 persons, calculate the total weight, determine the average weight, and display these details.
+#### Expected output:
+```
+Enter the weight of the first person:  
+55.5  
+Enter the weight of the second person:  
+45.4  
+Enter the weight of the third person:  
+65.6  
+The sum of the weight of the 3 persons is 166.5 Kgs and the average weight is 55.5 Kgs
+```
 
-### 4. **Speed Calculator**
-   - **Task:** Calculate speed using the formula \(Speed = rac{Distance}{Time}\).
-   - **Explanation:** Input distance and time, then divide distance by time to get the speed.
+---
 
-### 5. **Discount Percentage Calculator**
-   - **Task:** Calculate the percentage discount given an original price and a discounted price.
-   - **Explanation:** Use the formula \(rac{OriginalPrice - DiscountedPrice}{OriginalPrice} 	imes 100\) to calculate the discount.
+### 3. Write a program to accept the following details of an employee: empno, name, and monthly salary. Calculate the yearly salary and display the result.
+#### Expected output:
+```
+Enter the empno:  
+1001  
+Enter the employee name:  
+Ramana  
+Enter the monthly salary:  
+25000  
+Hi Ramana! Your employee id is 1001, monthly salary is Rs 25,000 and yearly salary is Rs 300,000.
+```
 
-### 6. **BMI Calculator**
-   - **Task:** Calculate BMI using height and weight.
-   - **Explanation:** Input weight in kilograms and height in meters, then calculate BMI using the formula \(BMI = rac{Weight}{Height^2}\).
+---
 
-### 7. **Average of N Numbers**
-   - **Task:** Input N numbers and calculate their average.
-   - **Explanation:** Sum the input numbers and divide by the total count to find the average.
+### 4. Write a program to accept two numbers from the user, swap their values and display the result.
+#### Expected output:
+```
+Enter the first number num1:  
+100  
+Enter the second number num2:  
+200  
+Before swap, the values of num1=100 and num2=200  
+After swap, the values of num1=200 and num2=100
+```
 
-### 8. **Temperature Difference**
-   - **Task:** Convert temperatures between Celsius and Fahrenheit.
-   - **Explanation:** Convert one temperature to the other using the formulas:
-     - Fahrenheit to Celsius: \(C = rac{(F - 32) 	imes 5}{9}\)
-     - Celsius to Fahrenheit: \(F = rac{C 	imes 9}{5} + 32\).
+---
 
-### 9. **Volume of a Sphere**
-   - **Task:** Calculate the volume of a sphere using the formula \(V = rac{4}{3} \pi r^3\).
-   - **Explanation:** Input the radius, calculate the cube of the radius, and multiply by \( rac{4}{3} \pi \).
+### 5. Write a program to accept the principal amount, rate of interest, and time, then calculate the simple interest.
+#### Expected output:
+```
+Enter the principal amount:  
+20000  
+Enter the rate of interest:  
+1.5  
+Enter the time (years):  
+2  
+Simple interest is 600
+```
+*Help: Simple Interest formula ((p * t * r) / 100)*
 
-### 10. **Profit or Loss Calculator**
-    - **Task:** Calculate whether a transaction results in profit or loss.
-    - **Explanation:** Subtract the cost price from the selling price. If the result is positive, it’s a profit; if negative, it’s a loss.
+---
+
+### 6. Write a program to accept a number; if it is negative, convert it to a positive number.
+#### Expected output:
+```
+Enter a number:  
+-10  
+The result is: 10
+```
+
+---
+
+### 7. Write a program to accept the billing amount. If it is > 6000, give a discount of 10% and display the net amount.
+#### Expected output:
+```
+Enter the billing amount:  
+6500  
+Your net billing amount: 5850  
+
+Enter the billing amount:  
+5500  
+Your net billing amount: 5500
+```
+
+---
+
+### 8. Write a program to accept details for a Sports Club registration form: name, mobile number, and age. If the person is at least 18 years old, they are eligible for membership.
+#### Expected output:
+```
+Enter the name:  
+Lakshman  
+Enter the mobile number:  
+989999999  
+Enter the age:  
+16  
+Sorry! You need to be at least 18 years old to get membership.
+
+Enter the name:  
+Lakshman  
+Enter the mobile number:  
+989999999  
+Enter the age:  
+30  
+Congratulations Lakshman for your successful registration.
+```
+*Hint: Use return statement in the if block after displaying the "Sorry..." message.*
+
+---
+
+### 9. Write a program to accept a number from the user and determine whether it is even or odd.
+#### Expected output:
+```
+Enter a number:  
+15  
+The entered number 15 is odd
+
+Enter a number:  
+10  
+The entered number 10 is even
+```
+
+---
+
+### 10. Write a program to accept two numbers from the user and determine which is bigger.
+#### Expected output:
+```
+Enter the first number num1:  
+20  
+Enter the second number num2:  
+45  
+The bigger of the two numbers entered (20 and 45) is: 45
+```
+
+---
+
+*Note: The same formatting applies to all remaining programs.*
